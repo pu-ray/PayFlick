@@ -42,30 +42,30 @@ class Navbar extends Component {
                 <div className="mobile-menu">
                   <nav id="mobile-menu-active">
                     <ul className="menu-overflow">
-                      <li><a href="#">HOME</a>
+                      {/* <li><a href="#">HOME</a>
                         <ul>
                           <li><a href="index.html">Fashion</a></li>
                         </ul>
-                      </li>
-                      <li><a href="#">pages</a>
+                      </li> */}
+                      {/* <li><a href="#">pages</a>
                         <ul>
                           <li><a href="about-us.html">about us</a></li>
 
                         </ul>
-                      </li>
-                      <li><a href="#">shop</a>
+                      </li> */}
+                      {/* <li><a href="#">shop</a>
                         <ul>
                           <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
 
                         </ul>
-                      </li>
-                      <li><a href="#">BLOG</a>
+                      </li> */}
+                      {/* <li><a href="#">BLOG</a>
                         <ul>
                           <li><a href="blog.html">blog 3 colunm</a></li>
 
                         </ul>
-                      </li>
-                      <li><a href="contact.html"> Contact  </a></li>
+                      </li> */}
+                      {/* <li><a href="contact.html"> Contact  </a></li> */}
                     </ul>
                   </nav>
                 </div>

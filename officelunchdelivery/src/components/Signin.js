@@ -16,48 +16,88 @@ export default class Signin extends Component {
        }
     render() {
     return (
-      
-    <div className = "container signup">
-      
+      <div className = " container">
+        <div className = "signup">
         <MuiThemeProvider>
           <div>
           {/* <AppBar
              title="Signup"
            /> */}
-           <TextField 
+           <br></br>
+           <br></br>
+           <br></br>
+           <br></br>
+  
+           {/* <TextField 
               style={{
-                border:"1px  solid orange",
+                border:"5px  solid green",
+                width:"600px"
                
                 
             }}
-            //  hintText="Enter your Username"
-            //  floatingLabelText="Username"
-            //  onChange = {(event,newValue) => this.setState({username:newValue})}
-             />
+             hintText="Enter your Username"
+             floatingLabelText="Username"
+             onChange = {(event,newValue) => this.setState({username:newValue})}
+             /> */}
+           <br/>
+           <br/>
+           <br/>
            <br/>
            {/* <TextField
+
+               style={{
+                border:"5px  solid green",
+                width:"600px"
+               
+                
+            }}
              hintText="Enter your email"
              floatingLabelText="Email"
              onChange = {(event,newValue) => this.setState({username:newValue})}
              /> */}
+          
+           <br/>
+           <br/>
+           <br/>
            <br/>
            <TextField
+           style={{
+            border:"5px  solid green",
+            width:"600px"
+           
+            
+        }}
              hintText="Enter your phone number"
              floatingLabelText="Phonenumber"
              onChange = {(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
+           <br/>
+           <br/>
+           <br/>
              <TextField
+             style={{
+              border:"5px  solid green",
+              width:"600px"
+             
+              
+          }}
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
                onChange = {(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
+             <br/>
+             <br/>
+             <br/>
+    
+             <br/>
              <a className="furits-slider-btn btn-hover animated"><Link to='/all'>Sign In</Link></a>
              {/* <RaisedButton label="Sign in" style={style}></RaisedButton> */}
          </div>
          </MuiThemeProvider>
+      </div>
       </div>
       
     );

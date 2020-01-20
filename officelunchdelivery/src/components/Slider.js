@@ -31,7 +31,7 @@ class Slider extends Component {
                       <a className="furits-slider-btn btn-hover animated"><Link to='/all'>Browse Meals</Link></a>
                      </div>
                   </div>
-          //     </div>
+          //    </div>
           // </div>
           // </div>
           // </div>

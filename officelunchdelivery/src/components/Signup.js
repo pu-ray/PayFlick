@@ -19,16 +19,22 @@ class Signup extends Component {
     render() {
     return (
       
-    <div className = "container signup">
-      
+    <div className = " container">
+        <div className = "signup">
         <MuiThemeProvider>
           <div>
           {/* <AppBar
              title="Signup"
            /> */}
+           <br></br>
+           <br></br>
+           <br></br>
+           <br></br>
+  
            <TextField 
               style={{
-                border:"1px  solid orange",
+                border:"5px  solid green",
+                width:"600px"
                
                 
             }}
@@ -37,30 +43,64 @@ class Signup extends Component {
              onChange = {(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
+           <br/>
+           <br/>
+           <br/>
            <TextField
+
+               style={{
+                border:"5px  solid green",
+                width:"600px"
+               
+                
+            }}
              hintText="Enter your email"
              floatingLabelText="Email"
              onChange = {(event,newValue) => this.setState({username:newValue})}
              />
+          
+           <br/>
+           <br/>
+           <br/>
            <br/>
            <TextField
+           style={{
+            border:"5px  solid green",
+            width:"600px"
+           
+            
+        }}
              hintText="Enter your phone number"
              floatingLabelText="Phonenumber"
              onChange = {(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
+           <br/>
+           <br/>
+           <br/>
              <TextField
+             style={{
+              border:"5px  solid green",
+              width:"600px"
+             
+              
+          }}
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
                onChange = {(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
-             <a className="furits-slider-btn btn-hover animated"><Link to='/signin'>Sign Up</Link></a>
+             <br/>
+             <br/>
+             <br/>
+  
+            <a className="furits-slider-btn btn-hover animated"><Link to='/signin'>Sign Up</Link></a>
              {/* <a><Link to='/signin'>Sign In</Link></a> */}
              
          </div> 
          </MuiThemeProvider>
+      </div>
       </div>
       
     );
