@@ -121,6 +121,23 @@
 
 /* 2. index page */
 /* 2.1 Header sidebar */
+
+.btn {
+    position: absolute;
+    top: 42%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+    padding: 0px 23px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 42px;
+    font-weight: bold;
+  }
 .header-left-sidebar {
     float: left;
     height: 100vh;
@@ -179,7 +196,13 @@
     background-position: center center;
    
 } */
-
+body{
+    background-color: #F6F8F9;
+   
+}
+.products{
+    background-color: white;
+}
 .sign{
     padding-top: 0;
     margin: 0 auto;
@@ -190,6 +213,7 @@
     opacity: ;
     
 }
+
 .buttons{
    
     /* margin: 0 auto; */

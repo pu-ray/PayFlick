@@ -7,7 +7,7 @@ class Categories extends Component {
     return (
       // <div className="banner-area pt-90 pb-160 fix">
       //   <div className="container">
-          <div className="row d-flex justify-content-around">
+          // <div className="row d-flex justify-content-around">
             <div className="col-lg-4 col-md-4">
               {/* <div className="furits-banner-wrapper mb-30 wow fadeInLeft"> */}
                 {/* <img src={img40} alt="" /> */}

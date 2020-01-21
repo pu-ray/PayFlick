@@ -23,11 +23,9 @@ class Catalogue extends Component {
   render() {
     return (
       // <div className="product-style-area pt-130 pb-30 wow fadeInUp">
-        <div className="container">
-          <div className="section-title-furits text-center mb-95">
-            {/* <img src={img49} alt="" /> */}
-            {/* <h2>More Fresh Products</h2> */}
-          </div>
+        <div className="container" >
+            <h4 style={{marginBottom:40,borderTop:"2px solid #e2e2e2",paddingTop:50}}>Mutton Dishes</h4>
+
           <div className="row">
             {
               this.state.products.map(product => {
