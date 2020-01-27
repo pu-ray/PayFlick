@@ -1,25 +1,18 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
-import Signup from './components/Signup'
-import Signin from './components/Signin'
-import All from './components/All'
-
-
-
+import Landingpage from './components/Landingpage'
+import SignUp from './components/SignUp'
+import SignIn from './components/SignIn'
+import Meals from './components/Meals'
 
 class App extends Component {
   render() {
     return (
       <Router>
-        
-          <Route exact path='/' component={Home} />
-          <Route exact path='/signup' component={Signup} />
-          <Route exact path='/signin' component={Signin} />
-          <Route exact path='/all' component={All} />
-        
-
+        <Route exact path='/' component={Landingpage} />
+        <Route exact path='/signup' component={SignUp} />
+        <Route exact path='/signin' component={SignIn} />
+        <Route exact path='/meals' component={Meals} />
       </Router>
     )
   }

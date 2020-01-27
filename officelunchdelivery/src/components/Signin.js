@@ -1,108 +1,42 @@
 import React, { Component } from 'react'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from 'material-ui/AppBar';
-import RaisedButton from 'material-ui/RaisedButton';
-import TextField from 'material-ui/TextField';
+
 import { Link} from 'react-router-dom'
 
-
-export default class Signin extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-        mobilenumber:"",
-        password:''
-        }
-       }
+class SignIn extends Component {
     render() {
-    return (
-      <div className = " container">
-        <div className = "signup">
-        <MuiThemeProvider>
-          <div>
-          {/* <AppBar
-             title="Signup"
-           /> */}
-           <br></br>
-           <br></br>
-           <br></br>
-           <br></br>
-  
-           {/* <TextField 
-              style={{
-                border:"5px  solid green",
-                width:"600px"
-               
-                
-            }}
-             hintText="Enter your Username"
-             floatingLabelText="Username"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
-             /> */}
-           <br/>
-           <br/>
-           <br/>
-           <br/>
-           {/* <TextField
-
-               style={{
-                border:"5px  solid green",
-                width:"600px"
-               
-                
-            }}
-             hintText="Enter your email"
-             floatingLabelText="Email"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
-             /> */}
-          
-           <br/>
-           <br/>
-           <br/>
-           <br/>
-           <TextField
-           style={{
-            border:"5px  solid green",
-            width:"600px"
-           
+      return (
+          <div className="bg-image" style={{height:"945px"}}>
+             <div className="bg-textys">
+                 <div className ="col" style={{width:340,height:110,margin:'0 auto'}}>
+                    <h1 style={{fontSize:"30px",color:'white',border:'5px solid #fd7703',
+                        padding:'20px  0px',marginTop:50,fontWeight:'bold',marginBottom:70}}>LUNCHBOX</h1>
+             </div>
             
-        }}
-             hintText="Enter your phone number"
-             floatingLabelText="Phonenumber"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
-             />
-           <br/>
-           <br/>
-           <br/>
-           <br/>
-             <TextField
-             style={{
-              border:"5px  solid green",
-              width:"600px"
+             <div className="form-group rounded" style={{width:492,borderRadius:"5px",paddingTop:20,height:65,margin:'0 auto'}}>
+                    <textarea type="name" placeholder="Mobile Number" ></textarea>
+             </div>
              
-              
-          }}
-               type="password"
-               hintText="Enter your Password"
-               floatingLabelText="Password"
-               onChange = {(event,newValue) => this.setState({password:newValue})}
-               />
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-    
-             <br/>
-             <a className="furits-slider-btn btn-hover animated"><Link to='/all'>Sign In</Link></a>
-             {/* <RaisedButton label="Sign in" style={style}></RaisedButton> */}
-         </div>
-         </MuiThemeProvider>
-      </div>
-      </div>
-      
-    );
+             <div className="form-group rounded" style={{width:492,height:65,borderRadius:"5px",margin:'0 auto',paddingTop:50}}>
+              <textarea type="name" type="password" placeholder="Password"/>
+              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+            </div>
+            
+
+            <div className ="col rounded" style={{width:290,margin:'0 auto',backgroundColor:'#fd7703',height:80,marginTop:100}}>
+            <h3 style={{color:'white',paddingTop:24,fontSize:23}}><Link to='/meals'>Sign In</Link></h3>
+            </div>
+            <br/> 
+            <br/>            
+
+            
+            <p class="change_link" style={{paddingTop:70,color:"white"}}>
+					Do you have an account ?
+					<a href="#tologin" class="to_register" style={{color:'#fd7703'}}> Sign Up </a>
+			</p>
+             </div>
+          </div>
+      )
+    }
   }
-}
-const style = {
- 
-};
+  
+  export default SignIn
